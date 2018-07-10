@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #424242;
+    box-shadow: none;
+    font-weight: 100;
+}
+
+body {
+    padding-bottom: 100px;
+}
+
+body:after {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+    background-image: url(../images/fond-homepage.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    z-index: -1;
+    opacity: .5;
+}
