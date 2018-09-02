@@ -22,7 +22,7 @@ class BlogIndex extends React.Component {
 
     return (
       <div className="app">
-        <Navbar titles={titles} />
+        {/* <Navbar titles={titles} /> */}
         <Helmet title={siteTitle} />
         <Bio />
         {posts.map(({ node }, key) => {
